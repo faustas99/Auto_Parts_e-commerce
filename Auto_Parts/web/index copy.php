@@ -72,9 +72,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	//print_r(array_values($brands));
 	//echo $brands[0][1]
 
-
 	?>
-
 <!-- //phpdatabase -->
 
 
