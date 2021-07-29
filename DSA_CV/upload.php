@@ -1,0 +1,52 @@
+<html lang="en">
+<?php
+//https://www.codexworld.com/upload-store-image-file-in-database-using-php-mysql/
+// Include the database configuration file
+include 'configother_uwe.php';
+$statusMsg = '';
+
+// File upload path
+$targetDir = "uploads/";
+$fileName = basename($_FILES["file"]["name"]);
+
+$poicityfk= $_POST["poi_city_fk_id"];
+$poiname= $_POST["poi_id_input"];
+$poidesctiption= $_POST["poi_description"];
+$poiid= $_POST["poi_id"];
+
+
+$targetFilePath = $targetDir . $fileName;
+$fileType = pathinfo($targetFilePath,PATHINFO_EXTENSION);
+
+if(isset($_POST["submit"]) && !empty($_FILES["file"]["name"])){
+    // Allow certain file formats
+    $allowTypes = array('jpg','png','jpeg','gif','pdf');
+    if(in_array($fileType, $allowTypes)){
+        // Upload file to server
+        if(move_uploaded_file($_FILES["file"]["tmp_name"], $targetFilePath)){
+            // Insert image file name into database
+            $insert = $db->query("INSERT into images (city_id_fk, title, description, file, poi_id_fk) VALUES ('$poicityfk','$poiname','$poidesctiption','".$fileName."','$poiid')");
+            //$insert = $db->query("INSERT into images (city_id_fk, title, description, file, poi_id_fk) VALUES ('222','testing','tessst','aaaa','aaaa')");
+            //$insert = $db->query("INSERT into images (names,file_name) VALUES ('".$fileName."','$poicityfk')");
+            if($insert){
+                $statusMsg = "The file ".$fileName. " has been uploaded successfully.";
+                
+            }else{
+                $statusMsg = "File upload failed, please try again.";
+            } 
+        }else{
+            $statusMsg = "Sorry, there was an error uploading your file.";
+        }
+    }else{
+        $statusMsg = 'Sorry, only JPG, JPEG, PNG, GIF, & PDF files are allowed to upload.';
+    }
+}else{
+    $statusMsg = 'Please select a file to upload.';
+}
+
+// Display status message
+echo $statusMsg;
+
+?>
+
+</html>

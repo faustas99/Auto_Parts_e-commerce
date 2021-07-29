@@ -1,0 +1,303 @@
+= ECommerce PHP Webapp (powered by PHP)
+Douglas SIX <https://github.com/sixdouglas>
+// Settings:
+:idprefix:
+:idseparator: -
+ifndef::env-github[:icons: font]
+ifdef::env-github,env-browser[]
+:toc: macro
+:toclevels: 1
+endif::[]
+ifdef::env-github[]
+:branch: master
+:status:
+:outfilesuffix: .adoc
+:!toc-title:
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::[]
+// Aliases:
+:path-config: pass:q[[.path]___config.php__]
+// URIs:
+:uri-repo: https://github.com/sixdouglas/php-ecommerce
+:uri-issues: {uri-repo}/issues
+:uri-search-issues: {uri-repo}/search?type=Issues
+
+:avatar-website: https://deleket.deviantart.com/art/Face-Avatars-107881096
+
+toc::[]
+
+== Description
+
+This project is a Simple PHP ECommerce Web App 
+
+== Main page
+
+Simple page with some text in the middle, a footer with the licence and some text.
+On the header you have the logo and the web site name, a search bar in the middle, 
+a notification and a profile icon on the right.
+
+== Website structure
+
+  |
+  +--bdd
+  |     _sql files_
+  |
+  +--controller
+  |     _Controllers_
+  |
+  +--css
+  |
+  +--img
+  |
+  +--js
+  |
+  +--libs
+  |
+  +--logs
+  |
+  +--model
+  |     _Models_
+  |
+  +--utils
+  |     _Utilities_
+  |
+  +--view
+  |     _View_
+  |
+  +--index.php
+
+In the `index.php` file we instanciate the Router and run it. 
+
+  $router = new Router($config);
+  $router->routerQuery();
+
+On the first arrival on the application, the Router will render one file page `MainView`.
+
+  $view = new View("Main");
+  $view->render([]);
+
+The View will render the `HeaderView`, the `MainView`, and then render the `TemplateView` 
+with the `HeaderView` and the `MainView` to fill in the template.
+
+For a specific request, the Router will use either the `$_QUERY['action']` or the `$_POST['action']` variable
+to find out which controller has to be called. 
+The Controller will call the nedeed Model(s) to save (for the register part), check (for the login) or retreive (for the catalog) 
+the data from the database. It will, then call the View associated giving it the data to render the page.
+
+== Authentication
+
+=== Objects
+
+The Authentication is made by the `UserModel.php`.
+
+=== Database tables
+
+There is one Database table used for this feature: `user`. 
+
+=== Functionalities
+
+The current fuctionalities are:
+
+* check the password
+* retreive the User data
+* persiste the new User
+
+=== Routing
+
+In the Router there are three actions for the Authentication:
+
+* ident
+* login
+* logout
+* register
+* create
+
+[NOTE]
+====
+To fill the Avatar `select` on the register page, we read all **PNG** files in the `img/avatar/` directory.
+
+You should download a set on internet and unzip it in this directory. 
+
+__I suggest the wonderfull {avatar-website}[deleket] set.__
+====
+
+== Product Catalog
+
+=== Objects
+
+The Product Catalog uses two controllers:
+
+* `ProductController.php`
+* `ProductTypeController.php` 
+
+two models: 
+
+* `ProductModel.php`
+* `ProductTypeModel.php`
+
+and two views: 
+
+* `ProductView.php`
+* `ProductTypeView.php`
+
+=== Database tables
+
+There are two database tables used here: 
+
+* `product_types`
+* `products` 
+
+=== Functionalities
+
+The current fuctionalities are:
+
+* listing the product types in the left hand menu
+* viewing all product for a selected product type
+* select a product and view it's detailed informations
+
+=== Routing
+
+The Router has two actions for the Catalog:
+
+* type
+* product
+
+== Cart
+
+=== Objects
+
+The Cart uses one controller:
+
+* `CartController.php`
+
+one model: 
+
+* `CartModel.php`
+
+and one view: 
+
+* `CartView.php`
+
+=== Database tables
+
+There are two database tables used here: 
+
+* `orders`
+* `order_lines` 
+
+=== Functionalities
+
+The current fuctionalities are:
+
+* add product to cart from the ProductPage
+* change product quantity from the CartPage
+* remove a product from cart from the CartPage
+
+=== Routing
+
+The Router has two actions for the Catalog:
+
+* cart
+* addToCart
+* update
+* remove
+
+[NOTE]
+====
+You need to be logged-in to view the add to cart button.
+====
+
+== Shipping
+
+=== Objects
+
+The Shipping uses one controller:
+
+* `ShippingController.php`
+
+two models: 
+
+* `ShippinhModel.php`
+* `UserModel.php`
+
+and two views: 
+
+* `ShippingView.php`
+* `NewShippingAddressView.php`
+
+=== Database tables
+
+There are two database tables used here: 
+
+* `user`
+* `user_address` 
+* `order_shipping_address` 
+
+=== Functionalities
+
+The current fuctionalities are:
+
+* display fixed price for Home delivery
+* Create a shipping address
+* set it as default ShippingAddress for the client
+* set it as Shipping Address for the curent order
+
+=== Routing
+
+The Router has two actions for the Catalog:
+
+* validate
+* createAddress
+* saveAddress
+
+[TIP]
+====
+You can add a change Address functionality.
+====
+
+== Self-hosted third Libraries or work on this Website __Offline__
+
+If you want to make this site available when you're not connected to Internet (it seems weird to say it :))
+or host yourself the third libraries used in this website, all you hav to is to download the following libraries in the `libs` folder:
+
+  |
+  +--libs
+     +--fonts
+     │  +--roboto
+     |        LICENSE.txt
+     |        Roboto-Black.ttf
+     |        Roboto-BlackItalic.ttf
+     |        Roboto-Bold.ttf
+     |        Roboto-BoldItalic.ttf
+     |        Roboto-Italic.ttf
+     |        Roboto-Light.ttf
+     |        Roboto-LightItalic.ttf
+     |        Roboto-Medium.ttf
+     |        Roboto-MediumItalic.ttf
+     |        Roboto-Regular.ttf
+     |        Roboto-Thin.ttf
+     |        Roboto-ThinItalic.ttf
+     +--jquery
+     │  +--3.2.1
+     |        jquery-3.2.1.min.js
+     +--materialicons
+     │  +--v33
+     |        2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2
+     |        icon.css
+     +--materialize
+       +--0.100.2
+           +--css
+           |     materialize.min.css
+           +--fonts
+           │  +--roboto
+           |        Roboto-Bold.woff2
+           |        Roboto-Light.woff2
+           |        Roboto-Regular.woff2
+           +--js
+                 materialize.min.js
+
+And then you need to comment the online URL in the TemplateView.php and uncomment the local URL

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<individual_metafile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:noNamespaceSchemaLocation="http://isa.cems.uwe.ac.uk/~p-chatterjee/2019-20/modules/dsa/assignment/dsa_individual_schema.xsd">
+    
+    <!-- This file is an example of a valid individual metadata file. 
+    Use this example file as a template and fill with your own data 
+    validating as you go along using Oxygen or some other schema aware editor -->    
+    <group id="w1-ZZ"/>
+    <student id="99999999"/>
+    <!--- List of one or more group components that you contributed to -->
+    <component type="Photo Widget">
+        <description>Use the Flickr API or another photo sharing site providing an API to grab photos relevant to your twinned cities/towns and integrate the component with the main application. To achieve maximum marks you may also want to analyse/prototype a caching mechanism for previously pulled images. 
+        </description>
+        <problems>Problems I encountered while creating the photo widgets included, the Flickr authentication (Oauth) and not being able to develop this from a locally hosted website, issues with unsafe images appearing, and finally php libraries being out of date.
+        </problems>
+        <solutions>Firstly Flickr authentication has changed to use Oauth which blocks unsecure connections, this inhibited me from being able to work on this part of the assignment from home. Additionally, this problem came up again when the library I was using to construct the widget did not contain the necessary functionality to use Oauth as it was out of data. The final issue I encountered was unsafe images appearing in my widget, this was quickly fixed by ensuring safe search was enabled.
+        </solutions>
+        <hours_effort>10</hours_effort>
+        <!-- This should be an URL to the working component - maybe part of the base page -->
+        <base_url>http://www.cems.uwe.ac.uk/~an-other/dsa/assignment/index.php</base_url>
+        <technologies>
+            <tech>php</tech>
+            <tech>javascript</tech>
+            <tech>html5</tech>
+        </technologies>
+        <source_files>
+            <file>
+                <name>Flickr-Widget.php</name>
+                <purpose>to fetch flickr photos</purpose>
+                <source_url>http://www.cems.uwe.ac.uk/~pj2-holt/DSA-Assignment/Flickr-Widget.php</source_url>
+            </file>
+            <file>
+                <name>infopage.php</name>
+                <purpose>Point of interest pages with embedded photos</purpose>
+                <source_url>http://www.cems.uwe.ac.uk/~pj2-holt/DSA-Assignment/infopage.php</source_url>
+            </file>
+        </source_files>
+    </component>
+    <security_discussion>
+        Availability – To ensure the website could with stand a denial of service attack or a massive influx of users all parts of the webpage would have to firstly be able to be cached, ensuring that users would have a more fluid experience. Additionally, measures would have to put in place to time users out that continually make requests. Something else that would have to change is membership to APIs such as google maps, flickr and OpenWeatherMap APIs would need to be upgraded to paid subscription to deal with the possible influx of users. Additional bandwidth to hosting servers would have to be purchased alongside redundancy built into the infrastructure. An example of this could be having multiple data centres hosting the website to prevent bottle necking and have decreased latency to people connecting to servers closer to them geographically. 
+        
+        Integrity -  Data would need to be stored on a secure database with only a few people having access through some means of authentication. Additionally, fact checking using multiple sources would have to be imposed to ensure any information being shown is correct. Another thing is archiving, this would have to become a regular occurrence to ensure no loss of information. Precautions should be put in place to ensure that if all data is lost it can be recovered. This includes storing data in multiple locations perhaps even globally. Any IT system should be fully check and validated also to prevent the loss of any data. 
+        
+        Utility – Dates and times would have to be converted to the correct format for the person who is viewing it. Alongside this, accurate translation for each language for the whole website is imperative, ensuring all can view the data.  Perhaps also, information should be available to blind people through audio. The webpage must be able to be viewed on as many devices as possible so compatibility is crucial here, ensuring that information is displayed and formatted correctly so that the user can have a fluid experience and gather the necessary information they require. 
+        
+        Possession/Control – Perhaps data is collected about the location or method of arrival to the website, this data would have to be stored securely to protect against confidential data from being possessed and controlled by an unauthorized individual or party. Additional security measures would have to be put in place to ensure that a data breach cannot occur. The web site should also ask permission before storing any data and be transparent about any data it wishes to store. 
+    </security_discussion>
+    <individual_comment>I found this part to be reletively easy despite some of the short comings of the flickr api including inability to filter by popularity or interest. Additionally I learnt alot of about using php libaries and furthering my knowledge of using APIs in general.
+    </individual_comment>
+</individual_metafile>
+<!-- DSA Individual Metadata File Example, 2019-20 -->
+<!-- author: prakash.chatterjee@uwe.ac.uk -->

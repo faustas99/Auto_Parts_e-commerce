@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data>
+    <host>localhost</host>
+	<username>root0</username>
+	<password>birzelio25</password>
+	<databasename>mydatabase</databasename>
+	<GoogleKEY>AIzaSyBfQDRQGja2dFXm9_YanxeG915xzYR9UoU</GoogleKEY>
+    <OpenweathermapKEY>4de3768c62b67fe359758977a3efc069</OpenweathermapKEY>
+    <flikrKEY>3b7f63a43de2ba05fd121f9b87b2e827</flikrKEY>
+    <flikrSecretKey>3b8bb1a661383148</flikrSecretKey>
+  </data>
+</root>

@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rates base="GBP" ts="1574634807" at="2019-11-24 11:33">
+    <rate code="AED" currency="UAE Dirham" rate="4.7204170029343" live="0">
+        <cntry>United Arab Emirates (The)</cntry>
+    </rate>
+    <rate code="AFN" currency="Afghani" rate="100.57047391574" live="0">
+        <cntry>Afghanistan</cntry>
+    </rate>
+    <rate code="ALL" currency="Lek" rate="142.72622490822" live="0">
+        <cntry>Albania</cntry>
+    </rate>
+    <rate code="AMD" currency="Armenian Dram" rate="612.99555893508" live="0">
+        <cntry>Armenia</cntry>
+    </rate>
+    <rate code="ANG" currency="Netherlands Antillean Guilder" rate="2.2039017927534" live="0">
+        <cntry>Curaçao, Sint Maarten (Dutch Part)</cntry>
+    </rate>
+    <rate code="AOA" currency="Kwanza" rate="604.1624009274" live="0">
+        <cntry>Angola</cntry>
+    </rate>
+    <rate code="ARS" currency="Argentine Peso" rate="76.861852325261" live="0">
+        <cntry>Argentina</cntry>
+    </rate>
+    <rate code="AUD" currency="Australian Dollar" rate="1.8922855156907" live="1">
+        <cntry>Australia, Christmas Island, Cocos (Keeling) Islands (The), Heard Island And Mcdonald
+            Islands, Kiribati, Nauru, Norfolk Island, Tuvalu</cntry>
+    </rate>
+    <rate code="AWG" currency="Aruban Florin" rate="2.3134321221479" live="0">
+        <cntry>Aruba</cntry>
+    </rate>
+    <rate code="AZN" currency="Azerbaijan Manat" rate="2.1813757504793" live="0">
+        <cntry>Azerbaijan</cntry>
+    </rate>
+    <rate code="BAM" currency="Convertible Mark" rate="2.2715417306158" live="0">
+        <cntry>Bosnia And Herzegovina</cntry>
+    </rate>
+    <rate code="BBD" currency="Barbados Dollar" rate="2.594719004679" live="0">
+        <cntry>Barbados</cntry>
+    </rate>
+    <rate code="BDT" currency="Taka" rate="109.03977248872" live="0">
+        <cntry>Bangladesh</cntry>
+    </rate>
+    <rate code="BGN" currency="Bulgarian Lev" rate="2.2805871349067" live="0">
+        <cntry>Bulgaria</cntry>
+    </rate>
+    <rate code="BHD" currency="Bahraini Dinar" rate="0.48453907623984" live="0">
+        <cntry>Bahrain</cntry>
+    </rate>
+    <rate code="BIF" currency="Burundi Franc" rate="2403.3987710099" live="0">
+        <cntry>Burundi</cntry>
+    </rate>
+    <rate code="BMD" currency="Bermudian Dollar" rate="1.2852404566086" live="0">
+        <cntry>Bermuda</cntry>
+    </rate>
+    <rate code="BND" currency="Brunei Dollar" rate="1.7515382785275" live="0">
+        <cntry>Brunei Darussalam</cntry>
+    </rate>
+    <rate code="BOB" currency="Boliviano" rate="8.8863399933757" live="0">
+        <cntry>Bolivia (Plurinational State Of)</cntry>
+    </rate>
+    <rate code="BRL" currency="Brazilian Real" rate="5.3935077415412" live="1">
+        <cntry>Brazil</cntry>
+    </rate>
+    <rate code="BSD" currency="Bahamian Dollar" rate="1.285106338314" live="0">
+        <cntry>Bahamas (The)</cntry>
+    </rate>
+    <rate code="BTC" currency="no" rate="0.00018310062837337" live="0">
+        <cntry/>
+    </rate>
+    <rate code="BTN" currency="Ngultrum" rate="92.112638375093" live="0">
+        <cntry>Bhutan</cntry>
+    </rate>
+    <rate code="BWP" currency="Pula" rate="13.953362987083" live="0">
+        <cntry>Botswana</cntry>
+    </rate>
+    <rate code="BYN" currency="Belarusian Ruble" rate="2.6352880394471" live="0">
+        <cntry>Belarus</cntry>
+    </rate>
+    <rate code="BYR" currency="no" rate="25190.7036977" live="0">
+        <cntry/>
+    </rate>
+    <rate code="BZD" currency="Belize Dollar" rate="2.5903047634153" live="0">
+        <cntry>Belize</cntry>
+    </rate>
+    <rate code="CAD" currency="Canadian Dollar" rate="1.7094146377873" live="1">
+        <cntry>Canada</cntry>
+    </rate>
+    <rate code="CDF" currency="Congolese Franc" rate="2141.2099382823" live="0">
+        <cntry>Congo (The Democratic Republic Of The)</cntry>
+    </rate>
+    <rate code="CHF" currency="Swiss Franc" rate="1.2822886878799" live="1">
+        <cntry>Liechtenstein, Switzerland</cntry>
+    </rate>
+    <rate code="CLF" currency="Unidad de Fomento" rate="0.037267392227203" live="0">
+        <cntry>Chile</cntry>
+    </rate>
+    <rate code="CLP" currency="Chilean Peso" rate="1028.4733839329" live="0">
+        <cntry>Chile</cntry>
+    </rate>
+    <rate code="CNY" currency="Yuan Renminbi" rate="9.0471828160643" live="1">
+        <cntry>China</cntry>
+    </rate>
+    <rate code="COP" currency="Colombian Peso" rate="4401.9469474676" live="0">
+        <cntry>Colombia</cntry>
+    </rate>
+    <rate code="CRC" currency="Costa Rican Colon" rate="733.7127256103" live="0">
+        <cntry>Costa Rica</cntry>
+    </rate>
+    <rate code="CUC" currency="Peso Convertible" rate="1.2852404566086" live="0">
+        <cntry>Cuba</cntry>
+    </rate>
+    <rate code="CUP" currency="Cuban Peso" rate="34.058859271423" live="0">
+        <cntry>Cuba</cntry>
+    </rate>
+    <rate code="CVE" currency="Cabo Verde Escudo" rate="128.71612988249" live="0">
+        <cntry>Cabo Verde</cntry>
+    </rate>
+    <rate code="CZK" currency="Czech Koruna" rate="29.737938683448" live="0">
+        <cntry>Czechia</cntry>
+    </rate>
+    <rate code="DJF" currency="Djibouti Franc" rate="228.41230529522" live="0">
+        <cntry>Djibouti</cntry>
+    </rate>
+    <rate code="DKK" currency="Danish Krone" rate="8.7153275052131" live="1">
+        <cntry>Denmark, Faroe Islands (The), Greenland</cntry>
+    </rate>
+    <rate code="DOP" currency="Dominican Peso" rate="67.865001189571" live="0">
+        <cntry>Dominican Republic (The)</cntry>
+    </rate>
+    <rate code="DZD" currency="Algerian Dinar" rate="154.20990795986" live="0">
+        <cntry>Algeria</cntry>
+    </rate>
+    <rate code="EGP" currency="Egyptian Pound" rate="20.705617340679" live="0">
+        <cntry>Egypt</cntry>
+    </rate>
+    <rate code="ERN" currency="Nakfa" rate="19.278900743132" live="0">
+        <cntry>Eritrea</cntry>
+    </rate>
+    <rate code="ETB" currency="Ethiopian Birr" rate="38.326189687586" live="0">
+        <cntry>Ethiopia</cntry>
+    </rate>
+    <rate code="EUR" currency="Euro" rate="1.1662460405947" live="1">
+        <cntry>Åland Islands, Andorra, Austria, Belgium, Cyprus, Estonia, European Union, Finland,
+            France, French Guiana, French Southern Territories (The), Germany, Greece, Guadeloupe,
+            Holy See (The), Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Martinique,
+            Mayotte, Monaco, Montenegro, Netherlands (The), Portugal, Réunion, Saint Barthélemy,
+            Saint Martin (French Part), Saint Pierre And Miquelon, San Marino, Slovakia, Slovenia,
+            Spain</cntry>
+    </rate>
+    <rate code="FJD" currency="Fiji Dollar" rate="2.7870388080032" live="0">
+        <cntry>Fiji</cntry>
+    </rate>
+    <rate code="FKP" currency="Falkland Islands Pound" rate="1.0447453618395" live="0">
+        <cntry>Falkland Islands (The) [Malvinas]</cntry>
+    </rate>
+    <rate code="GBP" currency="Pound Sterling" rate="1.00" live="1">
+        <cntry>Guernsey, Isle Of Man, Jersey, United Kingdom Of Great Britain And Northern Ireland
+            (The)</cntry>
+    </rate>
+    <rate code="GEL" currency="Lari" rate="3.8235796289472" live="0">
+        <cntry>Georgia</cntry>
+    </rate>
+    <rate code="GGP" currency="no" rate="0.99994635268213" live="0">
+        <cntry/>
+    </rate>
+    <rate code="GHS" currency="Ghana Cedi" rate="7.200242112678" live="0">
+        <cntry>Ghana</cntry>
+    </rate>
+    <rate code="GIP" currency="Gibraltar Pound" rate="1.0447465280855" live="0">
+        <cntry>Gibraltar</cntry>
+    </rate>
+    <rate code="GMD" currency="Dalasi" rate="65.360896003508" live="0">
+        <cntry>Gambia (The)</cntry>
+    </rate>
+    <rate code="GNF" currency="Guinean Franc" rate="12113.386442623" live="0">
+        <cntry>Guinea</cntry>
+    </rate>
+    <rate code="GTQ" currency="Quetzal" rate="9.891893657021" live="0">
+        <cntry>Guatemala</cntry>
+    </rate>
+    <rate code="GYD" currency="Guyana Dollar" rate="268.03150380429" live="0">
+        <cntry>Guyana</cntry>
+    </rate>
+    <rate code="HKD" currency="Hong Kong Dollar" rate="10.057196204569" live="1">
+        <cntry>Hong Kong</cntry>
+    </rate>
+    <rate code="HNL" currency="Lempira" rate="31.783826966407" live="0">
+        <cntry>Honduras</cntry>
+    </rate>
+    <rate code="HRK" currency="Kuna" rate="8.6616451999645" live="0">
+        <cntry>Croatia</cntry>
+    </rate>
+    <rate code="HTG" currency="Gourde" rate="124.97645349244" live="0">
+        <cntry>Haiti</cntry>
+    </rate>
+    <rate code="HUF" currency="Forint" rate="389.89035654474" live="1">
+        <cntry>Hungary</cntry>
+    </rate>
+    <rate code="IDR" currency="Rupiah" rate="18105.879974622" live="0">
+        <cntry>Indonesia</cntry>
+    </rate>
+    <rate code="ILS" currency="New Israeli Sheqel" rate="4.4610590447045" live="0">
+        <cntry>Israel</cntry>
+    </rate>
+    <rate code="IMP" currency="no" rate="0.99994635268213" live="0">
+        <cntry/>
+    </rate>
+    <rate code="INR" currency="Indian Rupee" rate="92.270716028419" live="1">
+        <cntry>Bhutan, India</cntry>
+    </rate>
+    <rate code="IQD" currency="Iraqi Dinar" rate="1529.4355812337" live="0">
+        <cntry>Iraq</cntry>
+    </rate>
+    <rate code="IRR" currency="Iranian Rial" rate="54115.029582997" live="0">
+        <cntry>Iran (Islamic Republic Of)</cntry>
+    </rate>
+    <rate code="ISK" currency="Iceland Krona" rate="158.73957492664" live="0">
+        <cntry>Iceland</cntry>
+    </rate>
+    <rate code="JEP" currency="no" rate="0.99994635268213" live="0">
+        <cntry/>
+    </rate>
+    <rate code="JMD" currency="Jamaican Dollar" rate="180.65250999473" live="0">
+        <cntry>Jamaica</cntry>
+    </rate>
+    <rate code="JOD" currency="Jordanian Dinar" rate="0.91121952015973" live="0">
+        <cntry>Jordan</cntry>
+    </rate>
+    <rate code="JPY" currency="Yen" rate="139.69397237396" live="1">
+        <cntry>Japan</cntry>
+    </rate>
+    <rate code="KES" currency="Kenyan Shilling" rate="130.58261337078" live="0">
+        <cntry>Kenya</cntry>
+    </rate>
+    <rate code="KGS" currency="Som" rate="89.773666630902" live="0">
+        <cntry>Kyrgyzstan</cntry>
+    </rate>
+    <rate code="KHR" currency="Riel" rate="5207.7924735146" live="0">
+        <cntry>Cambodia</cntry>
+    </rate>
+    <rate code="KMF" currency="Comorian Franc " rate="573.02389871386" live="0">
+        <cntry>Comoros (The)</cntry>
+    </rate>
+    <rate code="KPW" currency="North Korean Won" rate="1156.8563219865" live="0">
+        <cntry>Korea (The Democratic People’s Republic Of)</cntry>
+    </rate>
+    <rate code="KRW" currency="Won" rate="1517.5468959195" live="0">
+        <cntry>Korea (The Republic Of)</cntry>
+    </rate>
+    <rate code="KWD" currency="Kuwaiti Dinar" rate="0.39039153212075" live="0">
+        <cntry>Kuwait</cntry>
+    </rate>
+    <rate code="KYD" currency="Cayman Islands Dollar" rate="1.0709415804033" live="0">
+        <cntry>Cayman Islands (The)</cntry>
+    </rate>
+    <rate code="KZT" currency="Tenge" rate="495.75250859523" live="0">
+        <cntry>Kazakhstan</cntry>
+    </rate>
+    <rate code="LAK" currency="Lao Kip" rate="11388.511151645" live="0">
+        <cntry>Lao People’s Democratic Republic (The)</cntry>
+    </rate>
+    <rate code="LBP" currency="Lebanese Pound" rate="1942.8744069639" live="0">
+        <cntry>Lebanon</cntry>
+    </rate>
+    <rate code="LKR" currency="Sri Lanka Rupee" rate="231.47664359054" live="0">
+        <cntry>Sri Lanka</cntry>
+    </rate>
+    <rate code="LRD" currency="Liberian Dollar" rate="248.11557031764" live="0">
+        <cntry>Liberia</cntry>
+    </rate>
+    <rate code="LSL" currency="Loti" rate="18.85444782915" live="0">
+        <cntry>Lesotho</cntry>
+    </rate>
+    <rate code="LTL" currency="no" rate="3.7949797772937" live="0">
+        <cntry/>
+    </rate>
+    <rate code="LVL" currency="no" rate="0.77742894062875" live="0">
+        <cntry/>
+    </rate>
+    <rate code="LYD" currency="Libyan Dinar" rate="1.8057850468598" live="0">
+        <cntry>Libya</cntry>
+    </rate>
+    <rate code="MAD" currency="Moroccan Dirham" rate="12.399355299189" live="0">
+        <cntry>Morocco, Western Sahara</cntry>
+    </rate>
+    <rate code="MDL" currency="Moldovan Leu" rate="22.360806202563" live="0">
+        <cntry>Moldova (The Republic Of)</cntry>
+    </rate>
+    <rate code="MGA" currency="Malagasy Ariary" rate="4691.1255417213" live="0">
+        <cntry>Madagascar</cntry>
+    </rate>
+    <rate code="MKD" currency="Denar" rate="71.708041966198" live="0">
+        <cntry>Macedonia (The Former Yugoslav Republic Of)</cntry>
+    </rate>
+    <rate code="MMK" currency="Kyat" rate="1947.5524554144" live="0">
+        <cntry>Myanmar</cntry>
+    </rate>
+    <rate code="MNT" currency="Tugrik" rate="3483.1947420964" live="0">
+        <cntry>Mongolia</cntry>
+    </rate>
+    <rate code="MOP" currency="Pataca" rate="10.357202502298" live="0">
+        <cntry>Macao</cntry>
+    </rate>
+    <rate code="MRO" currency="no" rate="458.83005229447" live="0">
+        <cntry/>
+    </rate>
+    <rate code="MUR" currency="Mauritius Rupee" rate="46.975703596236" live="0">
+        <cntry>Mauritius</cntry>
+    </rate>
+    <rate code="MVR" currency="Rufiyaa" rate="19.805751225725" live="0">
+        <cntry>Maldives</cntry>
+    </rate>
+    <rate code="MWK" currency="Malawi Kwacha" rate="938.22435308332" live="0">
+        <cntry>Malawi</cntry>
+    </rate>
+    <rate code="MXN" currency="Mexican Peso" rate="24.901497693165" live="1">
+        <cntry>Mexico</cntry>
+    </rate>
+    <rate code="MYR" currency="Malaysian Ringgit" rate="5.3621473855096" live="1">
+        <cntry>Malaysia</cntry>
+    </rate>
+    <rate code="MZN" currency="Mozambique Metical" rate="82.087958276382" live="0">
+        <cntry>Mozambique</cntry>
+    </rate>
+    <rate code="NAD" currency="Namibia Dollar" rate="18.85514874302" live="0">
+        <cntry>Namibia</cntry>
+    </rate>
+    <rate code="NGN" currency="Naira" rate="465.89373399327" live="0">
+        <cntry>Nigeria</cntry>
+    </rate>
+    <rate code="NIO" currency="Cordoba Oro" rate="43.595154014452" live="0">
+        <cntry>Nicaragua</cntry>
+    </rate>
+    <rate code="NOK" currency="Norwegian Krone" rate="11.77563175548" live="1">
+        <cntry>Bouvet Island, Norway, Svalbard And Jan Mayen</cntry>
+    </rate>
+    <rate code="NPR" currency="Nepalese Rupee" rate="147.37966440104" live="0">
+        <cntry>Nepal</cntry>
+    </rate>
+    <rate code="NZD" currency="New Zealand Dollar" rate="2.0053682305249" live="1">
+        <cntry>Cook Islands (The), New Zealand, Niue, Pitcairn, Tokelau</cntry>
+    </rate>
+    <rate code="OMR" currency="Rial Omani" rate="0.49480087515103" live="0">
+        <cntry>Oman</cntry>
+    </rate>
+    <rate code="PAB" currency="Balboa" rate="1.285106338314" live="0">
+        <cntry>Panama</cntry>
+    </rate>
+    <rate code="PEN" currency="Sol" rate="4.3440122595784" live="0">
+        <cntry>Peru</cntry>
+    </rate>
+    <rate code="PGK" currency="Kina" rate="4.3649965245868" live="0">
+        <cntry>Papua New Guinea</cntry>
+    </rate>
+    <rate code="PHP" currency="Philippine Peso" rate="65.425171321543" live="1">
+        <cntry>Philippines (The)</cntry>
+    </rate>
+    <rate code="PKR" currency="Pakistan Rupee" rate="199.85972509248" live="0">
+        <cntry>Pakistan</cntry>
+    </rate>
+    <rate code="PLN" currency="Zloty" rate="5.0108099345503" live="0">
+        <cntry>Poland</cntry>
+    </rate>
+    <rate code="PYG" currency="Guarani" rate="8314.2261945858" live="0">
+        <cntry>Paraguay</cntry>
+    </rate>
+    <rate code="QAR" currency="Qatari Rial" rate="4.6792368552409" live="0">
+        <cntry>Qatar</cntry>
+    </rate>
+    <rate code="RON" currency="Romanian Leu" rate="5.5641913483204" live="0">
+        <cntry>Romania</cntry>
+    </rate>
+    <rate code="RSD" currency="Serbian Dinar" rate="137.04547309937" live="0">
+        <cntry>Serbia</cntry>
+    </rate>
+    <rate code="RUB" currency="Russian Ruble" rate="82.023118495263" live="1">
+        <cntry>Russian Federation (The)</cntry>
+    </rate>
+    <rate code="RWF" currency="Rwanda Franc" rate="1177.9224458045" live="0">
+        <cntry>Rwanda</cntry>
+    </rate>
+    <rate code="SAR" currency="Saudi Riyal" rate="4.8197799993469" live="0">
+        <cntry>Saudi Arabia</cntry>
+    </rate>
+    <rate code="SBD" currency="Solomon Islands Dollar" rate="10.603567313389" live="0">
+        <cntry>Solomon Islands</cntry>
+    </rate>
+    <rate code="SCR" currency="Seychelles Rupee" rate="17.608119171685" live="0">
+        <cntry>Seychelles</cntry>
+    </rate>
+    <rate code="SDG" currency="Sudanese Pound" rate="57.971859649286" live="0">
+        <cntry>Sudan (The)</cntry>
+    </rate>
+    <rate code="SEK" currency="Swedish Krona" rate="12.378378031657" live="1">
+        <cntry>Sweden</cntry>
+    </rate>
+    <rate code="SGD" currency="Singapore Dollar" rate="1.7532281690404" live="1">
+        <cntry>Singapore</cntry>
+    </rate>
+    <rate code="SHP" currency="Saint Helena Pound" rate="1.6976763713887" live="0">
+        <cntry>Saint Helena, Ascension And Tristan Da Cunha</cntry>
+    </rate>
+    <rate code="SLL" currency="Leone" rate="12402.565497544" live="0">
+        <cntry>Sierra Leone</cntry>
+    </rate>
+    <rate code="SOS" currency="Somali Shilling" rate="745.43885721883" live="0">
+        <cntry>Somalia</cntry>
+    </rate>
+    <rate code="SRD" currency="Surinam Dollar" rate="9.5853178953457" live="0">
+        <cntry>Suriname</cntry>
+    </rate>
+    <rate code="STD" currency="no" rate="27710.789406287" live="0">
+        <cntry/>
+    </rate>
+    <rate code="SVC" currency="El Salvador Colon" rate="11.244825366318" live="0">
+        <cntry>El Salvador</cntry>
+    </rate>
+    <rate code="SYP" currency="Syrian Pound" rate="661.89806426482" live="0">
+        <cntry>Syrian Arab Republic</cntry>
+    </rate>
+    <rate code="SZL" currency="Lilangeni" rate="18.8679529583" live="0">
+        <cntry>Eswatini</cntry>
+    </rate>
+    <rate code="THB" currency="Baht" rate="38.826932586314" live="1">
+        <cntry>Thailand</cntry>
+    </rate>
+    <rate code="TJS" currency="Somoni" rate="12.452522123687" live="0">
+        <cntry>Tajikistan</cntry>
+    </rate>
+    <rate code="TMT" currency="Turkmenistan New Manat" rate="4.4983404318842" live="0">
+        <cntry>Turkmenistan</cntry>
+    </rate>
+    <rate code="TND" currency="Tunisian Dinar" rate="3.6655183030654" live="0">
+        <cntry>Tunisia</cntry>
+    </rate>
+    <rate code="TOP" currency="Pa’anga" rate="2.9814356955258" live="0">
+        <cntry>Tonga</cntry>
+    </rate>
+    <rate code="TRY" currency="Turkish Lira" rate="7.3473278970718" live="1">
+        <cntry>Turkey</cntry>
+    </rate>
+    <rate code="TTD" currency="Trinidad and Tobago Dollar" rate="8.6983061442506" live="0">
+        <cntry>Trinidad And Tobago</cntry>
+    </rate>
+    <rate code="TWD" currency="New Taiwan Dollar" rate="39.294951787389" live="0">
+        <cntry>Taiwan (Province Of China)</cntry>
+    </rate>
+    <rate code="TZS" currency="Tanzanian Shilling" rate="2960.4181715128" live="0">
+        <cntry>Tanzania, United Republic Of</cntry>
+    </rate>
+    <rate code="UAH" currency="Hryvnia" rate="30.98373786521" live="0">
+        <cntry>Ukraine</cntry>
+    </rate>
+    <rate code="UGX" currency="Uganda Shilling" rate="4739.3887657851" live="0">
+        <cntry>Uganda</cntry>
+    </rate>
+    <rate code="USD" currency="US Dollar" rate="1.2852404566086" live="1">
+        <cntry>American Samoa, Bonaire, Sint Eustatius And Saba, British Indian Ocean Territory
+            (The), Ecuador, El Salvador, Guam, Haiti, Marshall Islands (The), Micronesia (Federated
+            States Of), Northern Mariana Islands (The), Palau, Panama, Puerto Rico, Timor-Leste,
+            Turks And Caicos Islands (The), United States Minor Outlying Islands (The), United
+            States Of America (The), Virgin Islands (British), Virgin Islands (U.s.)</cntry>
+    </rate>
+    <rate code="UYU" currency="Peso Uruguayo" rate="48.454260996534" live="0">
+        <cntry>Uruguay</cntry>
+    </rate>
+    <rate code="UZS" currency="Uzbekistan Sum" rate="12206.566919198" live="0">
+        <cntry>Uzbekistan</cntry>
+    </rate>
+    <rate code="VEF" currency="no" rate="12.836334861893" live="0">
+        <cntry/>
+    </rate>
+    <rate code="VND" currency="Dong" rate="29828.492181487" live="0">
+        <cntry>Viet Nam</cntry>
+    </rate>
+    <rate code="VUV" currency="Vatu" rate="149.85905216852" live="0">
+        <cntry>Vanuatu</cntry>
+    </rate>
+    <rate code="WST" currency="Tala" rate="3.4178554601307" live="0">
+        <cntry>Samoa</cntry>
+    </rate>
+    <rate code="XAF" currency="CFA Franc BEAC" rate="761.84216842459" live="0">
+        <cntry>Cameroon, Central African Republic (The), Chad, Congo (The), Equatorial Guinea,
+            Gabon</cntry>
+    </rate>
+    <rate code="XAG" currency="Silver" rate="0.075529592327034" live="0">
+        <cntry>Zz11_Silver</cntry>
+    </rate>
+    <rate code="XAU" currency="Gold" rate="0.0008793495146084" live="0">
+        <cntry>Zz08_Gold</cntry>
+    </rate>
+    <rate code="XCD" currency="East Caribbean Dollar" rate="3.473424751473" live="0">
+        <cntry>Anguilla, Antigua And Barbuda, Dominica, Grenada, Montserrat, Saint Kitts And Nevis,
+            Saint Lucia, Saint Vincent And The Grenadines</cntry>
+    </rate>
+    <rate code="XDR" currency="SDR (Special Drawing Right)" rate="0.93457009838452" live="0">
+        <cntry>International Monetary Fund (Imf) </cntry>
+    </rate>
+    <rate code="XOF" currency="CFA Franc BCEAO" rate="762.14668926074" live="0">
+        <cntry>Benin, Burkina Faso, Côte D'ivoire, Guinea-Bissau, Mali, Niger (The), Senegal,
+            Togo</cntry>
+    </rate>
+    <rate code="XPF" currency="CFP Franc" rate="139.28789016761" live="0">
+        <cntry>French Polynesia, New Caledonia, Wallis And Futuna</cntry>
+    </rate>
+    <rate code="YER" currency="Yemeni Rial" rate="321.69591650611" live="0">
+        <cntry>Yemen</cntry>
+    </rate>
+    <rate code="ZAR" currency="Rand" rate="18.909606601886" live="1">
+        <cntry>Lesotho, Namibia, South Africa</cntry>
+    </rate>
+    <rate code="ZMK" currency="no" rate="11568.69736615" live="0">
+        <cntry/>
+    </rate>
+    <rate code="ZMW" currency="Zambian Kwacha" rate="18.473128524979" live="0">
+        <cntry>Zambia</cntry>
+    </rate>
+    <rate code="ZWL" currency="Zimbabwe Dollar" rate="413.84727658225" live="0">
+        <cntry>Zimbabwe</cntry>
+    </rate>
+</rates>

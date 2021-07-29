@@ -1,0 +1,1 @@
+Dont do echo api in myMap. It shows the api in inspect element
