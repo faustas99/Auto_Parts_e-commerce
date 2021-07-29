@@ -198,6 +198,7 @@ echo $count;
 									<figure>
 										<div class="snipcart-item block">
 											<div class="snipcart-thumb">
+											<!--- using echo to output html code with image that is stored in php array element --->
 											<?php echo "<img src='data:image/png;base64,".base64_encode($rowitem['image'] )."'". " title='".$rowitem['item_name'] ."'"."' class='img-responsive'  />";?>
 												<input name= "item_post" type="submit" value="<?=$rowitem['item_name']?>"> </input>			
 												<h4>Stock: 12</h4>
