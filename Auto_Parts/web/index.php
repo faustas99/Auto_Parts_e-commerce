@@ -73,13 +73,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         $brands[] = $row;
 	
 	}    
-
-    // api  
-    //making a variable that holds a link to the google map api
-	//print_r(array_values($brands));
-	//echo $brands[0][1]
-
-
 	?>
 
 
@@ -105,6 +98,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<?php
 				if(isset($_SESSION['userid']))
 				{
+					//showing certain html (in this case a text and person's, who's logged in, name) if $_SESSION was started and it holds a user id
 					echo '<h2><a href="index.php"> Welcome, ';
 					echo $_SESSION['username'];
 					echo '</a></h2>';
