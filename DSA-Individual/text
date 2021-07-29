@@ -1,6 +1,0 @@
-db.poi.update({ poi_id: '3' },
-{
-  $set: {
-    description: 'A public park in south Liverpool in a district of the same name and located roughly within the historic bounds of the large area of Toxteth Park. The park is 235 acres in area and designated by the English Heritage.',
-  }
-})
