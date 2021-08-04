@@ -167,7 +167,7 @@ if(isset($_GET['brandname']))
 
 <?php
 //check if the manufacturer is selected 
-if($_GET['brandid'])
+if(isset($_GET['brandid']))
 {
     
     $manuid=$_GET['brandid'];
