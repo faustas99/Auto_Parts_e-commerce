@@ -20,6 +20,9 @@ body {
 .newinput {
     width: 80%;
 }
+#brand_submit{
+  background: red;
+}
 
 .select {
   display:flex;

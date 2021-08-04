@@ -27,6 +27,10 @@ ul,label{
 body a:hover{
 	text-decoration:none;
 }
+#brand_submit{
+    background: #ccc;
+    width: 90%;
+  }
 /*-- header --*/
 span.glyphicon.glyphicon-shopping-cart.my-cart-icon.my-cart-icon-affix {
 	position: relative !important;
